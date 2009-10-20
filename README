@@ -1,0 +1,14 @@
+NAME
+    RT::Extension::Utils - collection of command line utilities
+
+DESCRIPTION
+    This extension is collection of variouse command line utilities for
+    Request Tracker. Mostly these are tools for system administrators for
+    debugging and instrumenting some tasks.
+
+LICENSE
+    Under the same terms as perl itself.
+
+AUTHOR
+    Ruslan Zakirov <Ruslan.Zakirov@gmail.com>
+
