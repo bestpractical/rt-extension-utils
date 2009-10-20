@@ -4,6 +4,8 @@ use warnings;
 
 package RT::Extension::Utils;
 
+our $VERSION = '0.01';
+
 =head1 NAME
 
 RT::Extension::Utils - collection of command line utilities
