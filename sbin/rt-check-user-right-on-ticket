@@ -7,6 +7,17 @@ use warnings;
 ### after: use lib qw(@RT_LIB_PATH@);
 use lib qw(/opt/rt3/local/lib /opt/rt3/lib);
 
+=head1 NAME
+
+rt-check-user-right-on-ticket - check a right of a user on a ticket
+
+=head1 DESCRIPTION
+
+Checks who has a right in the system and describes why a user has
+or has no this right. Useful to debug rights problems.
+
+=cut
+
 use RT;
 RT::LoadConfig();
 RT::Init();
