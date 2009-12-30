@@ -23,4 +23,9 @@ substitute( {
     @tools
 ) if @tools;
 
+# default set of modules
+requires  'Data::Dumper';
+requires  'File::Spec';
+requires  'Getopt::Long';
+
 WriteAll();
