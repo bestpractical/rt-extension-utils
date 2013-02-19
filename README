@@ -16,7 +16,7 @@ INSTALLAION
     Don't forget to register extension in @Plugins config option:
 
         Set( @Plugins, qw(
-            RT::Extesion::Utils
+            RT::Extension::Utils
         ));
 
     Without registering some utilities will fail to work.
